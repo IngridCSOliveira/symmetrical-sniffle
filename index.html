@@ -21,12 +21,15 @@
             </ul>
         </nav>
         <div class="social-icons">
-            <a href="https://instagram.com" target="_blank">
+            <ul>
+            <li><p>Whatsapp (31) 999324285</p></li>
+            <a href="https://www.instagram.com/explore/locations/107702420890687/fazenda-itimirim/" target="_blank">
                 <img src="instalogo.svg" alt="Instagram">
             </a>
-            <a href="https://facebook.com" target="_blank">
+            <a href="https://www.facebook.com/fazendaitimirim/" target="_blank">
                 <img src="facelogo.svg" alt="Facebook">
             </a>
+            </ul>
         </div>
     </header>
 
@@ -37,12 +40,12 @@
                 <img src="imagem-2.jpg" alt="Imagem sobre a empresa" />
             </div>
             <div class="content">
-                <h2>Sobre</h2>
+                <h2>Sobre nós</h2>
                 <p>A Fazenda Itimirim é uma empresa familiar itabirana com mais de duas décadas de experiência na produção de doces e quitandas caseiras. Com um compromisso inabalável com a qualidade e a autenticidade, a empresa preserva as tradições da culinária mineira, atendendo a mais de 100 clientes, incluindo supermercados e comércios locais. A Fazenda Itimirim é sinônimo de sabor inigualável e tradição, conquistando paladares e promovendo a rica cultura culinária do interior de Minas Gerais na região.</p>
             </div>
         </section>
         <section id="produtos" class="produts">
-            <h2>Nossos Produtos</h2>
+            <h2>Nossos produtos</h2>
             <div class="grid-container">
                 <div class="grid-item">
                     <img src="amendoim-doce.jpg" alt="Amendoim Doce">
@@ -117,104 +120,353 @@
             </div>
         </section>
 
-        <section id="onde-encontrar">
-            <h2>Onde Encontrar</h2>
+        <section id="onde-encontrar" class="ond-encontrar">
+            <h2>Onde nos Encontrar</h2>
             <p>Encontre nossos produtos perto de você.</p>
-            <div class="lojascontainer">
-                <div class="cliente">
-                    <h2>Agro nutri</h2>
-                    <p>CEP: 35900-270</p>
-                    <p>Endereço: R. Prof. João Camilo de Oliveira Tôrres, 552</p>
-                    <p>Bairro: Praia</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
+            <form id="search-form">
+                <div class="form-group">
+                <label for="bairro">Pesquisar por Bairro:</label>
+                    <select id="bairro" name="bairro">
+                        <option value="">Selecione um bairro</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Água Fresca">Água Fresca</option>
+                        <option value="Aprígio">Aprígio</option>
+                        <option value="Areão">Areão</option>
+                        <option value="Barreiro">Barreiro</option>
+                        <option value="Bela Vista">Bela Vista</option>
+                        <option value="Bethânia">Bethânia</option>
+                        <option value="Caminho Novo">Caminho Novo</option>
+                        <option value="Campestre">Campestre</option>
+                        <option value="Centro">Centro</option>
+                        <option value="Doze de Março">Doze de Março</option>
+                        <option value="Esplanada da Estacao">Esplanada da Estacao</option>
+                        <option value="Fenix">Fenix</option>
+                        <option value="Gabiroba">Gabiroba</option>
+                        <option value="Hamilton">Hamilton</option>
+                        <option value="João XXIII">João XXIII</option>
+                        <option value="Juca Batista">Juca Batista</option>
+                        <option value="Machado">Machado</option>
+                        <option value="Madre Maria de Jesus">Madre Maria de Jesus</option>
+                        <option value="Major Lage de Baixo">Major Lage de Baixo</option>
+                        <option value="Pará">Pará</option>
+                        <option value="Praia">Praia</option>
+                        <option value="Penha">Penha</option>
+                        <option value="Quatorze de Fevereiro">Quatorze de Fevereiro</option>
+                        <option value="Santa Ruth">Santa Ruth</option>
+                        <option value="Vila Santa Izabel">Vila Santa Izabel</option>
+                        <option value="Vila Santa Rosa">Vila Santa Rosa</option>
+                    </select>
+                    <button type="submit">Pesquisar</button>
                 </div>
-                
-                <div class="cliente">
-                    <h2>ALIMENTOS MANANCIAL COMERCIO VAREJISTA E ATACADISTA LTDA</h2>
-                    <p>CEP: 35900-970</p>
-                    <p>Endereço: AV DOUTOR PEDRO GUERRA, 931</p>
-                    <p>Bairro: GABIROBA</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>ALMEIDA SUPERMERCADO</h2>
-                    <p>CEP: 35901-029</p>
-                    <p>Endereço: Rua Humberto Campos, 168 A</p>
-                    <p>Bairro: João XXIII</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>ARIANA MERCEARIA LTDA</h2>
-                    <p>CEP: 35901073</p>
-                    <p>Endereço: R. Oito, 597</p>
-                    <p>Bairro: Santa Ruth</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>Armazém da Roça</h2>
-                    <p>CEP: 35900-367</p>
-                    <p>Endereço: Avenida Brasil, 753</p>
-                    <p>Bairro: AMAZONAS</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>Bar Da Dora</h2>
-                    <p>CEP: 35900-091</p>
-                    <p>Endereço: Avenida Emílio Zacarias da Silva, 62</p>
-                    <p>Bairro: Bela Vista</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>Bar do Tony</h2>
-                    <p>CEP: 35900-970</p>
-                    <p>Endereço: AV DOIS, 185</p>
-                    <p>Bairro: Fenix</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>BAR E MERCEARIA DO TONINHO</h2>
-                    <p>CEP: 35902-087</p>
-                    <p>Endereço: Rua dos Alfaiates, 94</p>
-                    <p>Bairro: Gabiroba</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>Bar Mania de BB</h2>
-                    <p>CEP: 35900-072</p>
-                    <p>Endereço: Av. Cauê, 739</p>
-                    <p>Bairro: Campestre</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-                <div class="cliente">
-                    <h2>Bar Nossa Senhora Aparecida</h2>
-                    <p>CEP: 35900-219</p>
-                    <p>Endereço: Rua Sao Bento, 21</p>
-                    <p>Bairro: Caminho Novo</p>
-                    <p>Cidade: Itabira</p>
-                    <p>Estado: MG</p>
-                </div>
-                
-            </div>
-        </section>
+            </form>
+            <div id="result"></div>
+    </section>
 
-        <section id="contato">
+    <div class="lojascontainer">
+        <div class="cliente" data-bairro="Água Fresca">
+            <h2>Horticenter Juquinha</h2>
+            <p>Endereço: Rua Valdemar de Alvarenga Lage, 438 A</p>
+            <p>Bairro: Água Fresca</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Água Fresca">
+            <h2>JL supermercados </h2>
+            <p>Endereço: RUA MARECHAL JOFRE, 70</p>
+            <p>Bairro: Água Fresca</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Água Fresca">
+            <h2>Supermercados Tia Lia</h2>
+            <p>Rua Valdemar de Alvarenga Lage, 423</p>
+            <p>Bairro: Água Fresca</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Água Fresca">
+            <h2>Vira lanches</h2>
+            <p>Rua Manoel Clemente Ribeiro</p>
+            <p>Bairro: Água Fresca</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Amazonas">
+            <h2>Armazém da Roça</h2>
+            <p>Avenida Brasil, 753</p>
+            <p>Bairro: Amazonas</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Amazonas">
+            <h2>Oficina do Pão</h2>
+            <p>Avenida Brasil, 766</p>
+            <p>Bairro: Amazonas</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Amazonas">
+            <h2>Supermercado Alvarenga</h2>
+            <p>Avenida Brasil, 804</p>
+            <p>Bairro: Amazonas</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Aprígio">
+            <h2>Comercial Bittencourt</h2>
+            <p>R. Ouro Preto, 279</p>
+            <p>Bairro: Aprígio</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Aprígio">
+            <h2>Mercado Sá</h2>
+            <p>R. Ouro Preto, 765</p>
+            <p>Bairro: Aprígio</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Areão">
+            <h2>Dário</h2>
+            <p>R. Israel Pinheiro, 640</p>
+            <p>Bairro: Areão</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Areão">
+            <h2>Sacolão Amazonas</h2>
+            <p>Av. Rio Doce, 355</p>
+            <p>Bairro: Areão</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Barreiro">
+            <h2>Helena De Abreu</h2>
+            <p>Rua José Luiz, 191</p>
+            <p>Bairro: Barreiro</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Barreiro">
+            <h2>Lancho mix</h2>
+            <p>Rodovia Deputado Luiz Menezes, 2566</p>
+            <p>Bairro: Barreiro</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Barreiro">
+            <h2>LC REFEIÇOES</h2>
+            <p>Rodovia Deputado Luiz Menezes, 687</p>
+            <p>Bairro: Barreiro</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Barreiro">
+            <h2>Padaria Ke Delícia</h2>
+            <p>Rodovia Deputado Luiz Menezes, 517</p>
+            <p>Bairro: Barreiro</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bela Vista">
+            <h2>Bar Da Dora</h2>
+            <p>Avenida Emílio Zacarias da Silva, 62</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bela Vista">
+            <h2>Casa de Carne e mercearia bela vista</h2>
+            <p>R. Raimundo de Souza, 352</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bela Vista">
+            <h2>Mega Mercearia</h2>
+            <p>Rua Ormindo Dias Lage, 281</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bela Vista">
+            <h2>Sacolão Viva Bem</h2>
+            <p>Av. Emílio Zacarias da Silva, 81</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bela Vista">
+            <h2>Supermercado Bela Vista</h2>
+            <p>Rua Raimundo de Souza, 2</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bethânia">
+            <h2>Supermercado Vereda Tropical</h2>
+            <p>Avenida Galiléia, 217</p>
+            <p>Bairro: Bethânia</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bethânia">
+            <h2>Sacolão Fruto do Vale</h2>
+            <p>Avenida Galiléia, 263</p>
+            <p>Bairro: Bethânia</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Bethânia">
+            <h2>Sacolão Fruto do Vale</h2>
+            <p>Avenida Galiléia, 263</p>
+            <p>Bairro: Bethânia</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Caminho Novo">
+            <h2>Bar Nossa Senhora Aparecida</h2>
+            <p>Rua Sao Bento, 21</p>
+            <p>Bairro: Caminho Novo</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Caminho Novo">
+            <h2>Mercearia Sao Geraldo</h2>
+            <p>Rua Sebastiao Calixto Da Mata, 12</p>
+            <p>Bairro: Caminho Novo</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        <div class="cliente" data-bairro="Praia">
+            <h2>Agro nutri</h2>
+            <p>CEP: 35900-270</p>
+            <p>Endereço: R. Prof. João Camilo de Oliveira Tôrres, 552</p>
+            <p>Bairro: Praia</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente" data-bairro="Gabiroba">
+            <h2>ALIMENTOS MANANCIAL COMERCIO VAREJISTA E ATACADISTA LTDA</h2>
+            <p>CEP: 35900-970</p>
+            <p>Endereço: AV DOUTOR PEDRO GUERRA, 931</p>
+            <p>Bairro: Gabiroba</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>ALMEIDA SUPERMERCADO</h2>
+            <p>CEP: 35901-029</p>
+            <p>Endereço: Rua Humberto Campos, 168 A</p>
+            <p>Bairro: João XXIII</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>ARIANA MERCEARIA LTDA</h2>
+            <p>CEP: 35901073</p>
+            <p>Endereço: R. Oito, 597</p>
+            <p>Bairro: Santa Ruth</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>Armazém da Roça</h2>
+            <p>CEP: 35900-367</p>
+            <p>Endereço: Avenida Brasil, 753</p>
+            <p>Bairro: AMAZONAS</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>Bar Da Dora</h2>
+            <p>CEP: 35900-091</p>
+            <p>Endereço: Avenida Emílio Zacarias da Silva, 62</p>
+            <p>Bairro: Bela Vista</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>Bar do Tony</h2>
+            <p>CEP: 35900-970</p>
+            <p>Endereço: AV DOIS, 185</p>
+            <p>Bairro: Fenix</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>BAR E MERCEARIA DO TONINHO</h2>
+            <p>CEP: 35902-087</p>
+            <p>Endereço: Rua dos Alfaiates, 94</p>
+            <p>Bairro: Gabiroba</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>Bar Mania de BB</h2>
+            <p>CEP: 35900-072</p>
+            <p>Endereço: Av. Cauê, 739</p>
+            <p>Bairro: Campestre</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+        <div class="cliente">
+            <h2>Bar Nossa Senhora Aparecida</h2>
+            <p>CEP: 35900-219</p>
+            <p>Endereço: Rua Sao Bento, 21</p>
+            <p>Bairro: Caminho Novo</p>
+            <p>Cidade: Itabira</p>
+            <p>Estado: MG</p>
+        </div>
+        
+    </div>
+    <script>
+        document.getElementById('search-form').addEventListener('submit', function(event) {
+            event.preventDefault(); // Impede o envio do formulário
+            
+            const bairroSelecionado = document.getElementById('bairro').value;
+            const resultDiv = document.getElementById('result');
+            const lojasContainer = document.querySelector('.lojascontainer');
+            const clientes = document.querySelectorAll('.cliente');
+
+            resultDiv.innerHTML = '';
+
+            // Esconde todos os clientes
+            clientes.forEach(cliente => {
+                cliente.style.display = 'none';
+            });
+
+            if (bairroSelecionado) {
+                let encontrado = false;
+                clientes.forEach(cliente => {
+                    if (cliente.dataset.bairro === bairroSelecionado) {
+                        cliente.style.display = 'block';
+                        encontrado = true;
+                    }
+                });
+
+                if (!encontrado) {
+                    resultDiv.textContent = 'Nenhuma loja encontrada para o bairro selecionado.';
+                }
+            } else {
+                resultDiv.textContent = 'Por favor, selecione um bairro.';
+            }
+        });
+    </script>
+        </section>
+        <section id="contato" class="split-formulario">
+            <div class="image">
+                <img src="imagem-1.jpg" alt="Imagem formulario" />
+            </div>
             <div class="container">
                 <h2>Formulário de Contato</h2>
                 <p>Entre em contato conosco através deste formulário.</p>
@@ -232,6 +484,25 @@
                 </form>
             </div>
         </section>
+        <footer>
+            <div class="footer-container">
+                <div class="footer-logo">
+                    <img src="logo.jpg" alt="Logo">
+                </div>
+                <nav class="footer-menu">
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#onde-encontrar">Onde encontar</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+                <div class="footer-contact">
+                    <p>Email: fazendaitimirim@gmail.com</p>
+                    <p>Telefone: (31) 999324285</p>
+                </div>
+            </div>
+        </footer>
     </main>
 </body>
 </html>
